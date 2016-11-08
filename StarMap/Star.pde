@@ -8,13 +8,13 @@ class Star
   
   Star(TableRow row)
   {
-    Hab = row.getInt(1);
-    name = row.getString(2);
-    distance = row.getFloat(11);
-    Xg = row.getFloat(12);
-    Yg = row.getFloat(13);
-    Zg = row.getFloat(14);
-    size = row.getFloat(15);
+    Hab = row.getInt(2);
+    name = row.getString(3);
+    distance = row.getFloat(12);
+    Xg = row.getFloat(13);
+    Yg = row.getFloat(14);
+    Zg = row.getFloat(15);
+    size = row.getFloat(16);
   }
   
 }
