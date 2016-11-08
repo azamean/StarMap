@@ -14,7 +14,7 @@ class Star
     Xg = row.getFloat(13);
     Yg = row.getFloat(14);
     Zg = row.getFloat(15);
-    size = row.getFloat(16);
+    size = row.getFloat(1);
   }
   
 }
